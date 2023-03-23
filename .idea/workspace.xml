@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a242c48-c8b4-40e4-a037-b8c0fc4c16a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/T1_VVS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Ex8/BarcaBugsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Ex9/RankingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Ex9/RecordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex8/BarcaBugs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Ranking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NNa8nY2AwhJaEjcI3dJNDw3tyr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Max/IdeaProjects/T1_VVS/src/Ex9",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Max\IdeaProjects\T1_VVS\src\Ex9" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Ex9" />
+      <recent name="Ex8" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RankingTest.numRecords (1)">
+    <configuration name="RankingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T1_VVS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex9" />
+      <option name="MAIN_CLASS_NAME" value="Ex9.RankingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RankingTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T1_VVS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex9" />
+      <option name="MAIN_CLASS_NAME" value="Ex9.RankingTest" />
+      <option name="METHOD_NAME" value="add(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RankingTest.numRecords (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T1_VVS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex9" />
+      <option name="MAIN_CLASS_NAME" value="Ex9.RankingTest" />
+      <option name="METHOD_NAME" value="numRecords(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RankingTest.numRecords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T1_VVS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex9" />
+      <option name="MAIN_CLASS_NAME" value="Ex9.RankingTest" />
+      <option name="METHOD_NAME" value="numRecords(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RankingTest.numRecords (1)" />
+        <item itemvalue="JUnit.RankingTest.numRecords" />
+        <item itemvalue="JUnit.RankingTest" />
+        <item itemvalue="JUnit.RankingTest.add" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a242c48-c8b4-40e4-a037-b8c0fc4c16a7" name="Changes" comment="" />
+      <created>1679506838441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679506838441</updated>
+      <workItem from="1679506839583" duration="10020000" />
+      <workItem from="1679600614455" duration="43000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
