@@ -26,7 +26,20 @@ class BarcaBugsTest {
 
     })
     void testOcupaLugar(String seat, int expectedValue) {
-        assertEquals(barcaBugs.ocupaLugar(seat), expectedValue);
+        assertEquals(expectedValue, barcaBugs.ocupaLugar(seat) );
     }
 
+    @ParameterizedTest
+    @CsvSource({
+            "F22A05,100,2",
+            "F25A05,101,3",
+            "F43A15,200,2",
+            "F41A10,201,3",
+            "F38A14,189,3"
+    })
+
+    void testWeight(String seat, int numPassagenger, int expetedValue){
+        barcaBugs.setQtdadeAssentosOcupados(numPassagenger);
+        assertEquals(expetedValue, barcaBugs.ocupaLugar(seat));
+    }
 }

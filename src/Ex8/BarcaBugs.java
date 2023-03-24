@@ -8,6 +8,9 @@ public class BarcaBugs {
 
 
     private boolean[][] assentos;
+
+
+
     private int qtdadeAssentosOcupados;
 
     public BarcaBugs() {
@@ -35,7 +38,7 @@ public class BarcaBugs {
      */
     public int ocupaLugar(String assentoInformado) {
         // Verifica se é um assento valido
-        if (Pattern.matches("[F][0-8]{2}[A][0-8]{2}", assentoInformado) == false) {
+        if (!Pattern.matches("[F][0-8]{2}[A][0-8]{2}", assentoInformado)) {
             return 0;
         }
         int fila = Integer.parseInt(assentoInformado.substring(1, 3));
@@ -52,10 +55,12 @@ public class BarcaBugs {
         }
         // Se tem até 100 passageiros, verifica se fila <= 20
         if (qtdadeAssentosOcupados <= 100 && fila > 20) {
-            return 1;
+            // return 1;
+            return 2;
         }
         // Se tem mais de 100 e até de 200 passageiros, verifica se fila >= 40
-        if (qtdadeAssentosOcupados > 100 && qtdadeAssentosOcupados <= 200 && fila < 40) {
+        if (qtdadeAssentosOcupados > 100 && qtdadeAssentosOcupados <= 200 && fila >= 40) {
+            // fila < 40 became fila > 40
             return 2;
         }
         // Ocupa o assento
@@ -63,8 +68,11 @@ public class BarcaBugs {
         qtdadeAssentosOcupados++;
         return 3;
     }
+
+    // Only test methods
     public boolean[][] getAssentos() {
         return assentos;
     }
+    public void setQtdadeAssentosOcupados(int qtdadeAssentosOcupados) {this.qtdadeAssentosOcupados = qtdadeAssentosOcupados;}
 
 }

@@ -66,7 +66,7 @@
       <recent name="Ex8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BarcaBugsTest.testOcupaLugar">
+  <component name="RunManager" selected="JUnit.BarcaBugsTest.testWeight">
     <configuration name="BarcaBugsTest.ocupaLugar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T1_VVS" />
       <extension name="coverage">
@@ -99,6 +99,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BarcaBugsTest.testWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T1_VVS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex8" />
+      <option name="MAIN_CLASS_NAME" value="Ex8.BarcaBugsTest" />
+      <option name="METHOD_NAME" value="testWeight(java.lang.String,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarcaBugsTest.testWeight.[2] F25A05, 101, 3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T1_VVS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex8" />
+      <option name="MAIN_CLASS_NAME" value="Ex8.BarcaBugsTest" />
+      <option name="METHOD_NAME" value="testWeight(java.lang.String,int,int)" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:Ex8.BarcaBugsTest]/[test-template:testWeight(java.lang.String, int, int)]/[test-template-invocation:#2]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RankingTest.bestScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T1_VVS" />
       <extension name="coverage">
@@ -115,45 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RankingTest.getScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="T1_VVS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ex9" />
-      <option name="MAIN_CLASS_NAME" value="Ex9.RankingTest" />
-      <option name="METHOD_NAME" value="getScore(java.lang.String,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RankingTest.worstScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="T1_VVS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ex9" />
-      <option name="MAIN_CLASS_NAME" value="Ex9.RankingTest" />
-      <option name="METHOD_NAME" value="worstScore(java.lang.String,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BarcaBugsTest.testWeight" />
+        <item itemvalue="JUnit.BarcaBugsTest.testWeight.[2] F25A05, 101, 3" />
         <item itemvalue="JUnit.BarcaBugsTest.testOcupaLugar" />
         <item itemvalue="JUnit.BarcaBugsTest.ocupaLugar" />
         <item itemvalue="JUnit.RankingTest.bestScore" />
-        <item itemvalue="JUnit.RankingTest.worstScore" />
-        <item itemvalue="JUnit.RankingTest.getScore" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +171,7 @@
       <workItem from="1679506839583" duration="10020000" />
       <workItem from="1679600614455" duration="451000" />
       <workItem from="1679635926835" duration="2680000" />
+      <workItem from="1679682254943" duration="2117000" />
     </task>
     <task id="LOCAL-00001" summary="Created the test directory and the test cases">
       <created>1679600737461</created>
