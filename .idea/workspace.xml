@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a242c48-c8b4-40e4-a037-b8c0fc4c16a7" name="Changes" comment="Created the test directory and the test cases">
+    <list default="true" id="6a242c48-c8b4-40e4-a037-b8c0fc4c16a7" name="Changes" comment="finished the test on the RankingTest class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Ex9/RankingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Ex9/RankingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Ex8/BarcaBugsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Ex8/BarcaBugsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex8/BarcaBugs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex8/BarcaBugs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,39 @@
       <recent name="Ex8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RankingTest.bestScore">
+  <component name="RunManager" selected="JUnit.BarcaBugsTest.testOcupaLugar">
+    <configuration name="BarcaBugsTest.ocupaLugar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T1_VVS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex8" />
+      <option name="MAIN_CLASS_NAME" value="Ex8.BarcaBugsTest" />
+      <option name="METHOD_NAME" value="ocupaLugar(int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarcaBugsTest.testOcupaLugar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T1_VVS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex8" />
+      <option name="MAIN_CLASS_NAME" value="Ex8.BarcaBugsTest" />
+      <option name="METHOD_NAME" value="testOcupaLugar(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RankingTest.bestScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T1_VVS" />
       <extension name="coverage">
@@ -98,38 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RankingTest.numRecords (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="T1_VVS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ex9" />
-      <option name="MAIN_CLASS_NAME" value="Ex9.RankingTest" />
-      <option name="METHOD_NAME" value="numRecords(java.lang.String,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RankingTest.numRecords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="T1_VVS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Ex9" />
-      <option name="MAIN_CLASS_NAME" value="Ex9.RankingTest" />
-      <option name="METHOD_NAME" value="numRecords(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RankingTest.worstScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T1_VVS" />
       <extension name="coverage">
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BarcaBugsTest.testOcupaLugar" />
+        <item itemvalue="JUnit.BarcaBugsTest.ocupaLugar" />
         <item itemvalue="JUnit.RankingTest.bestScore" />
         <item itemvalue="JUnit.RankingTest.worstScore" />
         <item itemvalue="JUnit.RankingTest.getScore" />
-        <item itemvalue="JUnit.RankingTest.numRecords (1)" />
-        <item itemvalue="JUnit.RankingTest.numRecords" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,7 @@
       <updated>1679506838441</updated>
       <workItem from="1679506839583" duration="10020000" />
       <workItem from="1679600614455" duration="451000" />
-      <workItem from="1679635926835" duration="1278000" />
+      <workItem from="1679635926835" duration="2680000" />
     </task>
     <task id="LOCAL-00001" summary="Created the test directory and the test cases">
       <created>1679600737461</created>
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679600737461</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished the test on the RankingTest class">
+      <created>1679637489940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679637489940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created the test directory and the test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the test directory and the test cases" />
+    <MESSAGE value="finished the test on the RankingTest class" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished the test on the RankingTest class" />
   </component>
 </project>

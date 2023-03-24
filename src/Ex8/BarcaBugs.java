@@ -5,6 +5,8 @@ import java.util.regex.Pattern;
 public class BarcaBugs {
     public static final int ASSENTOS_POR_FILA = 20;
     public static final int FILAS = 60;
+
+
     private boolean[][] assentos;
     private int qtdadeAssentosOcupados;
 
@@ -45,7 +47,7 @@ public class BarcaBugs {
             return 0;
         }
         // Verifica se o assento já não está ocupado
-        if (assentos[fila][assento] == true) {
+        if (assentos[fila][assento]) {
             return 1;
         }
         // Se tem até 100 passageiros, verifica se fila <= 20
@@ -61,4 +63,8 @@ public class BarcaBugs {
         qtdadeAssentosOcupados++;
         return 3;
     }
+    public boolean[][] getAssentos() {
+        return assentos;
+    }
+
 }
