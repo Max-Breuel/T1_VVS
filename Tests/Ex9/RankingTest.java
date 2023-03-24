@@ -2,7 +2,7 @@ package Ex9;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.junit.jupiter.params.provider.ValueSource;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -32,26 +32,45 @@ class RankingTest {
     }
     @ParameterizedTest
     @CsvSource({
-            "max,20",
-            "pedro,30",
-            "rolim,14"
+            "jose;2.Pedro;56.Antonio;49.Tomas;58,0,58",
+            "jennifer;45.Augusto;467.Leandro;40.Alexandre;2020.pablo;49,4,40",
+            "jose;2.Pedro;56.Antonio;49.Tomas;58,3,2",
+            "jennifer;45.Augusto;467.Leandro;40.Alexandre;2020.pablo;49,0,2020"
     })
-    void getScore() {
+    void getScore(String strings, int pos, int res) {
+        String[] s = strings.split("\\.");
+        for (String value : s) {
+            String[] s2 = value.split(";");
+            ranking.add(new Record(s[0], Integer.parseInt(s2[1])));
+        }
+        assertEquals(ranking.getScore(pos).getScore(),res);
     }
     @ParameterizedTest
     @CsvSource({
-            "max,20",
-            "pedro,30",
-            "rolim,14"
+            "jose;2.Pedro;56.Antonio;49.Tomas;58,2",
+            "jennifer;45.Augusto;467.Leandro;40.Alexandre;2020.pablo;49,40",
+            "federico;9.roger;57.leo;4.amanda;50.frida;40,4"
     })
-    void worstScore() {
+    void worstScore(String strings, int expectedValue) {
+        String[] s = strings.split("\\.");
+        for (String value : s) {
+            String[] s2 = value.split(";");
+            ranking.add(new Record(s[0], Integer.parseInt(s2[1])));
+        }
+        assertEquals(ranking.worstScore().getScore(), expectedValue);
     }
     @ParameterizedTest
     @CsvSource({
-            "max,20",
-            "pedro,30",
-            "rolim,14"
+            "jose;2.Pedro;56.Antonio;49.Tomas;58,58",
+            "jennifer;45.Augusto;467.Leandro;40.Alexandre;2020.pablo;49,2020",
+            "federico;9.roger;57.leo;4.amanda;50.frida;40,57"
     })
-    void bestScore() {
+    void bestScore(String strings, int expectedValue) {
+        String[] s = strings.split("\\.");
+        for (String value : s) {
+            String[] s2 = value.split(";");
+            ranking.add(new Record(s[0], Integer.parseInt(s2[1])));
+        }
+        assertEquals(ranking.bestScore().getScore(),expectedValue);
     }
 }
